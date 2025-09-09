@@ -1,0 +1,34 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb~ 
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (keep repo clean, no large/sensitive files)
+data/
+*.csv
+*.xlsx
+*.tsv
+*.sav
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
