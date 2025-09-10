@@ -1,4 +1,7 @@
-# EO Colon Cancer Trends using CI5plus Data
+# Early Onset Colon Cancer Trends
+Tracking early-onset colon cancer trends across the globe with CI5plus data
+
+---
 
 ## 📌 Project Overview
 This project explores **early-onset colon cancer incidence trends** using data from **CI5plus** (Cancer Incidence in Five Continents).  Recent studies have raised concern about increasing rates of **early-onset colon cancer** (diagnoses before age 50).  This project investigates whether these trends represent a **true epidemiological shift** or mirror broader changes across all age groups.It forms part of a wider research effort into global cancer trends and contextual risk factors.
