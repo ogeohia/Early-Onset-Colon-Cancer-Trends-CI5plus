@@ -22,12 +22,18 @@ eo-colon-cancer-trends-ci5plus/
 │   ├── cancer_dict.csv
 │   └── registry_dict.csv
 ├── notebooks/
-│   ├── 01-eda.ipynb
-│   ├── 02-trend-analysis.ipynb
+│   ├── 00_data-prep.ipynb
+│   ├── 01_eda.ipynb
+│   ├── 02_trend-analysis.ipynb
 │   ├── 03_poisson-regression.ipynb
-│   └── 04-bayesian-models.ipynb
+│   └── 04_stan-models.ipynb
 ├── scripts/
 │   └── utils.py
+├── docs/
+│   └── poisson_model_interpretation.md
+├── tests/
+│   ├── README.md
+│   └── test_poisson_model.py
 ├── results/
 │   └── plots/
 └── README.md
@@ -41,6 +47,24 @@ CI5plus (Cancer Incidence in Five Continents, IARC)
 🔗 https://ci5.iarc.fr/CI5plus/
 
 (Note: Raw CI5plus data is not included in this repo. Please download directly from IARC or use synthetic data placeholders.)
+
+---
+
+## 📚 Documentation
+
+- **[Poisson Model Interpretation Guide](docs/poisson_model_interpretation.md)**: Comprehensive guide to interpreting the Poisson regression model coefficients with explicit intercept
+
+---
+
+## 🧪 Testing
+
+Run validation tests to verify model implementations:
+
+```bash
+python tests/test_poisson_model.py
+```
+
+See [tests/README.md](tests/README.md) for more details.
 
 ---
 
