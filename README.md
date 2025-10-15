@@ -36,6 +36,7 @@ eo-colon-cancer-trends-ci5plus/
 │   └── test_poisson_model.py
 ├── results/
 │   └── plots/
+├── environment.yml
 └── README.md
 ```
 
